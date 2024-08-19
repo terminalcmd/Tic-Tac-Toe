@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border:1px solid;
+    width: 100vw;
+    height:100vh;
+    
+
+}
+dialog{
+    width:400px;
+    height:400px;
+}
+
+dialog input{
+    display: block;
+    width: 300px;
+    height: 30px;
+    font-size: 1.2rem;
+}
+.dialog-div{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.dialog-div > *{
+    margin-top: 10px;
+}
+.dialog-div label{
+    font-size: 1.3rem;
+}
+dialog .enter{
+    font-size: 2rem;
+    border: 1px solid;
+    text-align: center;
+}
+.dialog-div button{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-top: 20px; 
+}
+
+.board-container{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.board{
+    min-width: 450px;
+    min-height:450px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 5px;
+    
+}
+.cell{
+   font-size: 5rem;
+   font-weight: bold;
+   border-radius: 5px;
+}
+
+.playeronescores,.playertwoscores{
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;  
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title h1{
+    font-size: 3rem;
+    margin-top: 10px;
+}
+.player-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+}
+.versus,.turn,.winner{
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+.versus{
+    font-weight:bold;
+    font-size: 2rem;
+}
+.play-to-start{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.play-end{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.play-end button{
+    font-size: 2rem;
+    padding:10px 10px;
+    margin:0 45px;
+
+}
+
+
