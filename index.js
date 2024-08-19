@@ -75,7 +75,7 @@ const Controller = (() =>{
     const newEndGame = () => {
         if(boardValue()[0].every(CheckEnd) && boardValue()[1].every(CheckEnd)
              && boardValue()[2].every(CheckEnd)){
-            msg ='tie'
+            msg ='Tie'
             console.log(msg)
             newBoard()
 
