@@ -8,15 +8,15 @@
     border:1px solid;
     width: 100vw;
     height:100vh;
-    
-
+    background-color: lightblue;
 }
 dialog{
     width:400px;
     height:400px;
     position: absolute;
     left: 39%;
-    top:20%
+    top:20%;
+    background-color: lightsteelblue;
 }
 
 dialog input{
@@ -24,6 +24,11 @@ dialog input{
     width: 300px;
     height: 30px;
     font-size: 1.2rem;
+    border-radius: 3px;
+    border: none;
+}
+dialog input:focus{
+    outline: 2px solid black;
 }
 .dialog-div{
     height: 80%;
@@ -47,7 +52,10 @@ dialog .enter{
 .dialog-div button{
     font-size: 1.2rem;
     padding: 10px 20px;
-    margin-top: 20px; 
+    margin-top: 20px;
+    background-color: rgb(11, 188, 247);
+    color:white; 
+    border-radius:5px;
 }
 
 .board-container{
@@ -69,6 +77,7 @@ dialog .enter{
    font-size: 5rem;
    font-weight: bold;
    border-radius: 5px;
+   background-color: lightgray;
 }
 
 .playeronescores,.playertwoscores{
@@ -112,7 +121,16 @@ dialog .enter{
     font-size: 2rem;
     padding:10px 10px;
     margin:0 45px;
+    border:1px solid black;
+    border-radius:5px;
+    color: white;
 
+}
+.start{
+    background-color:green;
+}
+.end{
+    background-color: rgb(221, 45, 45);
 }
 
 
